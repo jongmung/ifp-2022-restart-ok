@@ -35,20 +35,20 @@
 # Maradona
 
 # 첫번째 시도
-n = int(input())
-p = int(input())
-for _ in range(n):
-    player = []
-    maxPr = 0
-    for _ in range(p):
-        player.append(list(input().split()))
-    for pr in player:
-        price = int(pr[0])
-        if maxPr < price:
-            maxPr = price
-    for n in player:
-        if n[0] == str(maxPr):
-            print(n[1])
+# n = int(input())
+# p = int(input())
+# for _ in range(n):
+#     player = []
+#     maxPr = 0
+#     for _ in range(p):
+#         player.append(list(input().split()))
+#     for pr in player:
+#         price = int(pr[0])
+#         if maxPr < price:
+#             maxPr = price
+#     for n in player:
+#         if n[0] == str(maxPr):
+#             print(n[1])
 # 두번째 시도
 n = int(input())
 for _ in range(n):
