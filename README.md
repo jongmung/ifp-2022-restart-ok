@@ -13,7 +13,7 @@
   - 김태영 <[overtae](https://github.com/overtae)>
   - 박종민 <[jongmung](https://github.com/jongmung)>
   - 안동섭 <[tjqehd23](https://github.com/tjqehd23)>
-  - 채희진 <[coowooc](https://coowooc.tistory.com/)>
+  - 채희진 <[coowooc](https://github.com/coowooc)>
   - 정재균 <[tgoddessana](https://github.com/tgoddessana)>
   - 소이연 <[peridot-28](https://github.com/peridot-28)>
 
