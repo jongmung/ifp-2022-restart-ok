@@ -1,9 +1,22 @@
 n = int(input())
 
-for _ in range(n-1):
-  p = int(input())
-  for _ in range(p):
-    c, pn = input().split()
+a = []
+line = []
 
-print(p)
+for i in range(n):
+    p = int(input())
+    for j in range(p):
+        line = input().split()
+        a.append(line)
 
+sorted(a, key=lambda a: a[0])
+print(a[0])
+
+# a = []
+
+# line = []
+
+# line = input().split()
+# a.append(line)
+
+# print(a)
