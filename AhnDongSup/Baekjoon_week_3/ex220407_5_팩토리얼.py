@@ -6,6 +6,7 @@ for i in range(N,1,-1):
     F*=i
 print(F)
 
+
 # a=int(input())
 # def factorial(i):
 #     if i==0: return 1
