@@ -1,9 +1,9 @@
 t = int(input())
-hSum = 0
-gpa = 0
 
 for i in range(t):
     n = int(input())
+    hSum = 0
+    gpa = 0
     for i in range(n):
         c, g = map(str, input().split())
         hSum += int(c)
