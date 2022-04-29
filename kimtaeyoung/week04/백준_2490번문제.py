@@ -17,5 +17,6 @@
 
 # 풀이
 for _ in range(3):
-    c = [x for x in input().split()].count('0')
+    # c = [x for x in input().split()].count('0')
+    c = input().count('0')
     print('E' if c == 0 else chr(64 + c))
