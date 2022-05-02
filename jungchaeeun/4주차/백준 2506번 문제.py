@@ -27,8 +27,6 @@ OX 문제는 맞거나 틀린 두 경우의 답을 가지는 문제를 말한다
 예제 출력 1 
 10
 '''
-import sys
-input = sys.stdin.readlines
 
 n = int(input())
 sum = 0
