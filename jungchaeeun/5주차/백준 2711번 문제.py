@@ -28,11 +28,20 @@ CONTES
 BALOON
 '''
 
-t = int(input())
+'''
+런타임 에러
 
-for i in range(t):
+for i in range(int(input)):
     a, b = input().split()
     a = int(a)
     b = list(b)
     b.remove(b[a-1])
     print(''.join(b))
+'''
+
+t = int(input())
+
+for i in range(t):
+    a, word = input().split()
+    a = int(a)
+    print(word[:a-1]+word[a:])
