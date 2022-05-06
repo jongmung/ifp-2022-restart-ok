@@ -24,6 +24,7 @@
 '''
 max_count = 0
 max_i = 0
+
 for i in range(5):
     count = list(map(int, input().split()))
     if max_count < sum(count):
