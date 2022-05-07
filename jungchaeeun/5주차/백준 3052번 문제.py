@@ -27,15 +27,12 @@
 예제 출력 1 
 10
 '''
-count = 1
+
 num = []
 
 for i in range(10):
     a = int(input())
-    num.append(a)
+    num.append(a % 42)
 
-for i in range(1, 10, 1):
-    if num[i] % 42 != num[i+1] % 42:
-        count += 1
-
-print(count)
+num = set(num)
+print(len(num))
