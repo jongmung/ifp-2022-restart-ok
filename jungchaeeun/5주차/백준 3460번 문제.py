@@ -20,6 +20,7 @@
 t = int(input())
 
 for i in range(t):
-    n = int(input())
-    n = bin(n)
-    print(list(filter(lambda num: num == 0, n)))
+    n = bin(int(input()))[2:]
+    for i in range(len(n)):
+        if n[-i-1] == '1':
+            print(i, end=' ')
