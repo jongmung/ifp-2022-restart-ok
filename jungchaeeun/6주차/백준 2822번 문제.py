@@ -28,3 +28,20 @@
 261
 3 4 5 6 8
 '''
+score = []
+final_score = 0
+
+for i in range(8):
+    a = int(input())
+    score.append(a)
+
+score_sort = score.copy()
+score_sort.sort(reverse=True)
+
+for i in range(5):
+    final_score += score_sort[i]
+
+print(final_score)
+
+for i in range(5):
+    print(score.index(score_sort[i+1]), end=' ')
