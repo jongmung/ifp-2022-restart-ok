@@ -44,4 +44,4 @@ for i in range(5):
 print(final_score)
 
 for i in range(5):
-    print(score.index(score_sort[i+1]), end=' ')
+    print(score.index(score_sort[i]), end=' ')
