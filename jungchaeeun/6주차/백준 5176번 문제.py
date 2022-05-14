@@ -37,12 +37,17 @@
 0
 2
 '''
-space = set()
+space = []
+people = 0
 k = int(input())
 
 for i in range(k):
     p, m = map(int, input().split())
     for i in range(p):
         a = int(input())
-        space.add(a)
-    print(p - len(space))
+        space.append(a)
+        if a in space:
+            people -= 1
+        else:
+            people += 1
+    print(p - people)
