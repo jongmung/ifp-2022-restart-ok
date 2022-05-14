@@ -1,9 +1,19 @@
-height_list = []
+list = [int(input()) for i in range(9)]
+# 구글링 했서요...
+total = sum(list)
 
-for _ in range(9):
-    height_list.append(int(input()))
+for i in range(9):
+    for j in range(i+1,9):
+        if 100 == total - (list[i] + list[j]): 
+            num1,num2=list[i],list[j]
 
-height_list.sort()
-# print(height_list[:8])
-for i in height_list[:7]:
-    print(i)
+            list.remove(num1)
+            list.remove(num2)
+            list.sort() # 오름차순 정리
+
+            for i in range(len(list)):
+               print(list[i])
+            break
+
+    if len(list)<9:
+        break
