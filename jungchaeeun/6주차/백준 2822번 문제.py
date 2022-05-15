@@ -38,9 +38,6 @@ for i in range(8):
 
 score_copy = score.copy()
 
-# score_sort = score.copy()
-# score_sort.sort(reverse=True)
-
 for i in range(5):
     max_score.append(max(score))
     score.remove(max(score))
