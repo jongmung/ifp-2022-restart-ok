@@ -1,85 +1,85 @@
 # ifp-2022-restart-ok
-2022�뀈 �뒪�꽣�뵒洹몃９ 猿먮떎 耳쒕㈃ �맗�땲�떎
-- �솢�룞 湲곌컙 : 2022.04.04(�썡) ~ 2022.12.31(�넗)
+2022년 스터디그룹 껐다 켜면 됩니다
+- 활동 기간 : 2022.04.04(월) ~ 2022.12.31(토)
 
-- �룞�븘由� �쉶�옣 
+- 동아리 회장 
 
-  - �씠�븯�엺 <[HalamLee](https://github.com/HalamLee)>
+  - 이하람 <[HalamLee](https://github.com/HalamLee)>
 
-- 李몄뿬 �룞�븘由ъ썝
-  - [�뒪�꽣�뵒�옣] �쑀�옱�슦 <[blooper20](https://github.com/blooper20)>
-  - �젙梨꾩�� <[chaeeunj](https://github.com/chaeeunj)>
-  - 怨쏀삙由� <[hr111322](https://github.com/hr111322)>
-  - 源��깭�쁺 <[overtae](https://github.com/overtae)>
-  - 諛뺤쥌誘� <[jongmung](https://github.com/jongmung)>
-  - �븞�룞�꽠 <[tjqehd23](https://github.com/tjqehd23)>
-  - 梨꾪씗吏� <[coowooc](https://coowooc.tistory.com/)>
-  - �젙�옱洹� <[tgoddessana](https://github.com/tgoddessana)>
-  - �냼�씠�뿰 <[peridot-28](https://github.com/peridot-28)>
-
-
+- 참여 동아리원
+  - [스터디장] 유재우 <[blooper20](https://github.com/blooper20)>
+  - 정채은 <[chaeeunj](https://github.com/chaeeunj)>
+  - 곽혜린 <[hr111322](https://github.com/hr111322)>
+  - 김태영 <[overtae](https://github.com/overtae)>
+  - 박종민 <[jongmung](https://github.com/jongmung)>
+  - 안동섭 <[tjqehd23](https://github.com/tjqehd23)>
+  - 채희진 <[coowooc](https://coowooc.tistory.com/)>
+  - 정재균 <[tgoddessana](https://github.com/tgoddessana)>
+  - 소이연 <[peridot-28](https://github.com/peridot-28)>
 
 
-## �쓶 臾댁뾿�쓣 �븯�뒗媛�?
 
-- �뙆�씠�뜫 肄붾뵫�뀒�뒪�듃 諛깆�� 
 
-## �윍� �뼱�뼸寃� �븯�뒗媛�?
+## ❓ 무엇을 하는가?
 
-1. 二쇱뼱吏� 怨쇱젣瑜� �닔�뻾
+- 파이썬 코딩테스트 백준 
 
-2. �옉�꽦�븳 肄붾뱶瑜� 愿��젴 �뤃�뜑�뿉 ����옣
+## 🔍 어떻게 하는가?
 
-3. ����옣�븳 �뙆�씪�쓣 媛쒖씤蹂� Fork�븳 Repo�쓽 main�쑝濡� PUSH
+1. 주어진 과제를 수행
 
-4. 媛쒖씤蹂� 源껎뿀釉� Repo�뿉 PUSH�맂 main Branch瑜� IFP�쓽 �뒪�꽣�뵒 ����옣�냼�쓽 main Branch濡� PR�쓣 蹂대깂
+2. 작성한 코드를 관련 폴더에 저장
 
-5. �빐�떦 怨쇱젙�쓣 諛섎났
+3. 저장한 파일을 개인별 Fork한 Repo의 main으로 PUSH
+
+4. 개인별 깃허브 Repo에 PUSH된 main Branch를 IFP의 스터디 저장소의 main Branch로 PR을 보냄
+
+5. 해당 과정을 반복
 
    ```
-   1. IFP�쓽 �뒪�꽣�뵒 ����옣�냼 Fork
-   2. 蹂몄씤�쓽 �뒪�꽣�뵒 ����옣�냼瑜� Clone (濡쒖뺄�쓽 ����옣�냼 �뤃�뜑媛� �깮�꽦�맖)
-   $ git clone https://github.com/[�옄�떊�쓽 怨꾩젙�씠由�]/ifp-2022-restart-ok.git
-   3. IFP�쓽 �뒪�꽣�뵒 ����옣�냼��� �룞湲고솕 (蹂�寃쎈맂 �궡�뿭�쓣 �굹�쓽 ����옣�냼�뿉�룄 �씪移섏떆耳쒖＜�뒗 �옉�뾽)
+   1. IFP의 스터디 저장소 Fork
+   2. 본인의 스터디 저장소를 Clone (로컬의 저장소 폴더가 생성됨)
+   $ git clone https://github.com/[자신의 계정이름]/ifp-2022-restart-ok.git
+   3. IFP의 스터디 저장소와 동기화 (변경된 내역을 나의 저장소에도 일치시켜주는 작업)
    
-   # 癒쇱�� 濡쒖뺄遺��꽣 �룞湲고솕�빐以섏빞 �븳�떎. (Fork �븯湲� �쟾�쓽 �젅�룷. 利�, IFP �젅�룷�쓽 remote �씠由꾩쓣 "upstream"�씠�씪怨� �빐以��떎.)
-   # upstream 異붽�� -> �넻�긽�쟻�쑝濡� upstream�씠�씪怨� �빐二쇰뒗寃� �썝移숈씠�떎.
+   # 먼저 로컬부터 동기화해줘야 한다. (Fork 하기 전의 레포. 즉, IFP 레포의 remote 이름을 "upstream"이라고 해준다.)
+   # upstream 추가 -> 통상적으로 upstream이라고 해주는게 원칙이다.
    $ git remote add upstream https://github.com/IDU-IFP/ifp-2022-restart-ok.git
-   # upstream �젅�룷�쓽 蹂�寃� �궡�뿭�쓣 濡쒖뺄�쓽 ����옣�냼��� 蹂묓빀
+   # upstream 레포의 변경 내역을 로컬의 저장소와 병합
    $ git pull upstream main
    
-   4. �옄�떊�쓽 �쁺臾� �씠由꾩쑝濡� �맂 �뤃�뜑(ex: yoojaewoo) �깮�꽦 
+   4. 자신의 영문 이름으로 된 폴더(ex: yoojaewoo) 생성 
   
-   5. yoojaewoo �뤃�뜑濡� �씠�룞
+   5. yoojaewoo 폴더로 이동
 
-   6. 肄붾뱶�옉�뾽�쓣 �떆�옉�븯湲� �쟾�뿉 �썝蹂� �젅�룷吏��넗由щ줈遺��꽣 pull�쓣 諛쏄퀬 吏꾪뻾�븯硫� �맂�떎.   
-   # pull�쓣 �씠�슜�븯�뿬 �썝蹂� �젅�룷吏��넗由ъ쓽 main 釉뚮옖移섏뿉 �엳�뒗 理쒖떊 �뙆�씪�뱾�쓣 諛쏆븘�삩�떎.
+   6. 코드작업을 시작하기 전에 원본 레포지토리로부터 pull을 받고 진행하면 된다.   
+   # pull을 이용하여 원본 레포지토리의 main 브랜치에 있는 최신 파일들을 받아온다.
    $ git pull upstream main
 
-   7. 肄붾뱶�옉�뾽 吏꾪뻾 (�뙆�씪紐� : 諛깆��_0000踰덈Ц�젣.py)
+   7. 코드작업 진행 (파일명 : 백준_0000번문제.py)
    
-   7.5 肄붾뱶 �옉�뾽�씠 �걹�굹怨� �떎�떆 pull�쓣 諛쏆븘�삩�떎.
-   # 肄붾뱶 �옉�뾽以� �늻援곌��媛� �깉濡쒖슫 �뙆�씪�쓣 push�븷 媛��뒫�꽦�씠 �엳�쑝誘�濡� �떎�떆 理쒖떊�솕 �떆耳쒖���떎.
+   7.5 코드 작업이 끝나고 다시 pull을 받아온다.
+   # 코드 작업중 누군가가 새로운 파일을 push할 가능성이 있으므로 다시 최신화 시켜준다.
    $ git pull upstream main
    
-   8. 源� Staging Area�뿉 ����옣 (ex: git add �뙆�씪紐�)
-   # �뙆�씪紐낆뿉 "."�쓣 �븯硫� �쁽�옱 �뤃�뜑�쓽 �쟾泥� �뙆�씪�쓣 tracked�븿.
+   8. 깃 Staging Area에 저장 (ex: git add 파일명)
+   # 파일명에 "."을 하면 현재 폴더의 전체 파일을 tracked함.
    $ git add . 
    
-   9. ".git" �뤃�뜑�뿉 ����옣 (ex: git commit -m "�씠由�: 硫붿꽭吏�") -> "-m"��� message�쓽 �빟�옄
-   $ git commit -m "yoojaewoo: 諛깆��_0000踰덈Ц�젣 ����씠"
+   9. ".git" 폴더에 저장 (ex: git commit -m "이름: 메세지") -> "-m"은 message의 약자
+   $ git commit -m "yoojaewoo: 백준_0000번문제 풀이"
    
-   10. 蹂몄씤�씠 Fork�븳 源껎뿖 ����옣�냼�뿉 �뾽濡쒕뱶 (ex: git push <Remote> <Branch>)
+   10. 본인이 Fork한 깃헙 저장소에 업로드 (ex: git push <Remote> <Branch>)
    $ git push origin main
    
-   11. 蹂몄씤�씠 Fork�븳 源껎뿖 ����옣�냼濡� �씠�룞�븯�뿬 Pull Request(PR)瑜� 蹂대궦�떎.
-    �쓼 �씠�븣, IFP ����옣�냼�쓽 main 釉뚮옖移섍�� �븘�땶 "蹂듭궗�븳 �젅�룷吏��넗由�"濡� 蹂대궡�빞�븿
-    �씠�썑 �뒪�꽣�뵒 洹몃９�옣�씠 �솗�씤�븳 �썑 IFP ����옣�냼�쓽 main 釉뚮옖移섎줈 蹂묓빀�떆耳쒖＜�뒗 �옉�뾽�쓣 �븯寃� �맂�떎.
+   11. 본인이 Fork한 깃헙 저장소로 이동하여 Pull Request(PR)를 보낸다.
+    ❗ 이때, IFP 저장소의 main 브랜치가 아닌 "복사한 레포지토리"로 보내야함
+    이후 스터디 그룹장이 확인한 후 IFP 저장소의 main 브랜치로 병합시켜주는 작업을 하게 된다.
    
-   12. �떎瑜� �뒪�꽣�뵒�썝�쓽 臾몄젣 ����씠媛� �삱�씪�삩 寃쎌슦 �떎�쓬 二쇱감媛� �꽆�뼱媛�吏� �쟾源뚯�� 肄붾뱶由щ럭瑜� �빐以��떎.
+   12. 다른 스터디원의 문제 풀이가 올라온 경우 다음 주차가 넘어가지 전까지 코드리뷰를 해준다.
    ```
-### �쓼二쇱쓽�빐�빞�븷 �젏
-- **git pull**�쓣 �씠�슜�븯�뿬 肄붾뱶�옉�뾽 �쟾, �썑濡� **理쒖떊�솕** �떆耳쒖＜湲�
-- **git pull**�쓣 �씠�슜�븯硫� **�떎瑜� �궗�엺�쓽 �뤃�뜑媛� �옄�떊�쓽 �옉�뾽 �솚寃쎌뿉 �깮湲곕뒗�뜲** �씠�븣 �떎瑜� �궗�엺�쓽 �뤃�뜑瑜� **�젅���濡� �궘�젣**�븯吏� �븡�뒿�땲�떎!!
-- **pull**�쓣 �궗�슜�븷 �븣�뿉�뒗 **�썝蹂� �젅�룷吏��넗由�**瑜� �씠�슜�븳�떎.
-- **push**�쓣 �븷 �븣�뿉�뒗 **fork�븳 媛쒖씤 �젅�룷吏��넗由�**瑜� �씠�슜�븳�떎.
+### ❗주의해야할 점
+- **git pull**을 이용하여 코드작업 전, 후로 **최신화** 시켜주기
+- **git pull**을 이용하면 **다른 사람의 폴더가 자신의 작업 환경에 생기는데** 이때 다른 사람의 폴더를 **절대로 삭제**하지 않습니다!!
+- **pull**을 사용할 때에는 **원본 레포지토리**를 이용한다.
+- **push**을 할 때에는 **fork한 개인 레포지토리**를 이용한다.
