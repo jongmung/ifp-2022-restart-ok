@@ -29,19 +29,28 @@
 3 4 5 6 8
 '''
 score = []
-final_score = 0
+max_score = []
+question = []
 
 for i in range(8):
     a = int(input())
     score.append(a)
 
-score_sort = score.copy()
-score_sort.sort(reverse=True)
+score_copy = score.copy()
+
+# score_sort = score.copy()
+# score_sort.sort(reverse=True)
 
 for i in range(5):
-    final_score += score_sort[i]
+    max_score.append(max(score))
+    score.remove(max(score))
 
-print(final_score)
+print(sum(max_score))
 
 for i in range(5):
-    print(score.index(score_sort[i]), end=' ')
+    question.append(score_copy.index(max_score[i]))
+
+question.sort()
+
+for i in range(5):
+    print(question[i]+1, end=' ')
