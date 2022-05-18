@@ -48,6 +48,5 @@ for i in range(int(input())):
         count.add(sit)
     answer.append(p-len(count))
     count.clear()
-    print(*answer)
 
-# print(*answer, sep='\n')
+print(*answer, sep='\n')
