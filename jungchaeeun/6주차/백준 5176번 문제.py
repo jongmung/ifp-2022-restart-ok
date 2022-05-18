@@ -37,11 +37,17 @@
 0
 2
 '''
+
 count = set()
+answer = []
 
 for i in range(int(input())):
     p, m = map(int, input().split())
     for i in range(p):
         sit = int(input())
         count.add(sit)
-    print(p-len(count))
+    answer.append(p-len(count))
+    count.clear()
+    print(*answer)
+
+# print(*answer, sep='\n')
