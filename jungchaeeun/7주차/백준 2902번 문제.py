@@ -27,5 +27,5 @@ KMP
 
 name = input().split('-')
 
-for i in range(len(name)-1):
-    a = slice[i:sss]
+for i in name:
+    print(i[0], end='')

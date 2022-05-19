@@ -20,7 +20,6 @@ word = list(input())
 for i in range(len(word)):
     if word[i].upper() == word[i]:
         word[i] = word[i].lower()
-    # if word[i].lower() == word[i]:
     else:
         word[i] = word[i].upper()
 
