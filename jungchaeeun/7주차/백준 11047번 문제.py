@@ -30,6 +30,7 @@
 '''
 
 n, k = map(int, input().split())
+<<<<<<< HEAD
 coin_lst = []
 for i in range(n):
     coin_lst.append(int(input()))
@@ -41,5 +42,15 @@ for i in coin_lst:
     k = k % i 
     if k <= 0:
       break 
+=======
+coin_lst = list()
+for i in range(n):
+    coin_lst.append(int(input()))
+
+count = 0
+for i in reversed(range(n)):
+    count += k // coin_lst[i]  # 카운트 값에 K를 동전으로 나눈 몫을 더해줌
+    k = k % coin_lst[i]  # K는 동전으로 나눈 나머지로 계속 반복
+>>>>>>> f3a508571bb16c78af7edee8fb16929c784583b1
 
 print(count)

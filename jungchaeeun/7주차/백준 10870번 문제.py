@@ -19,11 +19,18 @@ n이 주어졌을 때, n번째 피보나치 수를 구하는 프로그램을 작
 예제 출력 1 
 55
 '''
+<<<<<<< HEAD
 
+=======
+>>>>>>> f3a508571bb16c78af7edee8fb16929c784583b1
 n = int(input())
 
 fibonacci = [0, 1]
 for i in range(2, n+1):
     num = fibonacci[i-1] + fibonacci[i-2]
     fibonacci.append(num)
+<<<<<<< HEAD
 print(fibonacci[n])
+=======
+print(fibonacci[n])
+>>>>>>> f3a508571bb16c78af7edee8fb16929c784583b1
