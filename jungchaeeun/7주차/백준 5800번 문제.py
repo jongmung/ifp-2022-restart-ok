@@ -29,6 +29,7 @@ Max 99, Min 25, Largest gap 25
 '''
 
 k = int(input())
+
 for i in range(k):
     count = list(map(int, input().split()))
     count = count[1:]
