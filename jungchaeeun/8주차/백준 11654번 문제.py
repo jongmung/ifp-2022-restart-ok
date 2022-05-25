@@ -17,4 +17,5 @@ A
 '''
 
 something = input()
+
 print(ord(something))

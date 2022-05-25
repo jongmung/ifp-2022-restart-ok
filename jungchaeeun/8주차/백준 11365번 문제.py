@@ -24,9 +24,16 @@ obfustication
 We intend to begin on the first of February unrestricted submarine warfare
 Concealed within his fortress, the lord of Mordor sees all
 '''
+
+passwd_list = []
+
 while True:
-    passwd = input().split()
+    passwd = input()
+    passwd_list.append(passwd)
     if passwd == 'END':
         break
-    for i in range(len(passwd)-1, -1, -1):
-        print(passwd[i][::-1], end=' ')
+
+# for i in range(0, len(passwd_list)-1, 1):
+#     print(passwd_list[i][::-1], end='\n')
+for i in passwd_list-1:
+    print(i[::-1], end='\n')
