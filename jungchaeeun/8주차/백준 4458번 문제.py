@@ -28,6 +28,6 @@ Darth Vader
 n = int(input())
 
 for i in range(n):
-    a = list(input())
-    a[0] = a[0].upper()
-    print(*a, sep='')
+    sentence = list(input())
+    sentence[0] = sentence[0].upper()
+    print(*sentence, sep='')
