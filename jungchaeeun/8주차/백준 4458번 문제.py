@@ -25,17 +25,9 @@ She-Ra Princess of Power
 Darth Vader
 '''
 
-# sentence = []
 n = int(input())
 
 for i in range(n):
     a = list(input())
     a[0] = a[0].upper()
     print(*a, sep='')
-
-#     sentence.append(a)
-
-# for i in sentence:
-#     if i[0] != i[0].upper():
-#         i[0] = i[0].upper()
-#     print(i, sep='\n')
