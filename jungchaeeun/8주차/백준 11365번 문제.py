@@ -33,7 +33,5 @@ while True:
     if passwd == 'END':
         break
 
-# for i in range(0, len(passwd_list)-1, 1):
-#     print(passwd_list[i][::-1], end='\n')
-for i in passwd_list-1:
-    print(i[::-1], end='\n')
+for i in range(0, len(passwd_list)-1, 1):
+    print(passwd_list[i][::-1], end='\n')
