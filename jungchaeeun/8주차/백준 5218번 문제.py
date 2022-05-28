@@ -32,19 +32,12 @@ Distances: 1 14 9 25 1 12
 Distances: 17 7 19 5 1 16
 '''
 
-distance_list = []
-alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O',
-            'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
-
 for i in range(int(input())):
-    w1, w2 = input().split()
-    for i in range(len(w1)):
-        if alphabet.index(w1[i]) <= alphabet.index(w2[i]):
-            distance = alphabet.index(w2[i]) - alphabet.index(w1[i])
-            distance_list.append(distance)
+    a, b = input().split()
+    distance = []
+    for i in range(len(a)):
+        if ord(a[i]) > ord(b[i]):
+            distance.append(26 - (ord(a[i]) - ord(b[i])))
         else:
-            distance = alphabet.index(w2[i])+26 - alphabet.index(w1[i])
-            distance_list.append(distance)
-
-print('Distances:', *distance_list[:len(w1)])
-print('Distances:', *distance_list[len(w1):])
+            distance.append(ord(b[i]) - ord(a[i]))
+    print("Distances:", *distance)
