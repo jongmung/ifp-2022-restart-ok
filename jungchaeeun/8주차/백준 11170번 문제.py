@@ -25,12 +25,12 @@ N부터 M까지의 수들을 종이에 적었을 때 종이에 적힌 0들을 �
 0
 '''
 
-zero_count = 0
 t = int(input())
 
 for i in range(t):
     n, m = map(int, input().split())
+    zero = 0
     for i in range(n, m+1, 1):
-        if i % 10 == 0:
-            zero_count += 1
-    print(zero_count)
+        if '0' in str(i):
+            zero += str(i).count('0')
+    print(zero)
