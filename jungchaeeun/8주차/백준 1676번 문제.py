@@ -17,14 +17,15 @@ N!에서 뒤에서부터 처음 0이 아닌 숫자가 나올 때까지 0의 개�
 
 n = int(input())
 fact = 1
-index = []
+count = 0
 
 for i in range(1, n+1, 1):
     fact *= i
 fact = str(fact)
 
-for i in fact:
-    if i == '0':
-        index.append(fact.count(i))
+for i in fact[::-1]:
+    if i != '0':
+        break
+    count += 1
 
-print(len(fact) - (len(fact) - i))
+print(count)
