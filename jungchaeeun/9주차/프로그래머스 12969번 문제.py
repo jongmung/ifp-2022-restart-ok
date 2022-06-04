@@ -14,6 +14,7 @@ n과 m은 각각 1000 이하인 자연수입니다.
 *****
 *****
 '''
+
 n, m = map(int, input().strip().split(' '))
 
 for i in range(m):
