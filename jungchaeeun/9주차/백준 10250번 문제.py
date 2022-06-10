@@ -37,18 +37,15 @@ T 는 입력의 맨 첫 줄에 주어진다. 각 테스트 데이터는 한 행�
 1203p
 '''
 
-hotel = []
-
 t = int(input())
 
 for i in range(t):
     h, w, n = map(int, input().split())
 
-for i in range(h):
-    room = []
-    for j in range(w):
-        room.append(j)
-    hotel.append(room)
+    floor = n % h
+    room_line = (n // h) + 1
+    if floor == 0:
+        floor = h
+        room_line -= 1
 
-for i in range(w):
-    for j in range(h):
+    print(floor * 100 + room_line)
