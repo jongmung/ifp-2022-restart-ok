@@ -22,10 +22,10 @@ M이상 N이하의 소수를 모두 출력하는 프로그램을 작성하시오
 m, n = map(int, input().split())
 
 for i in range(m, n+1):
-    normal = 0
-    if i > 0:
-        for j in range(2, i):
-            if i % j == 0:
-                normal += 1
-        if normal == 0:
-            print(i)
+    if i == 1:
+        continue
+    for j in range(2, int(i ** 0.5)+1):
+        if i % j == 0:
+            break
+    else:
+        print(i)
