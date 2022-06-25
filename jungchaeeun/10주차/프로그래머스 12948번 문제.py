@@ -20,6 +20,3 @@ def solution(phone_number):
         num_list[i] = '*'
     answer = ''.join(num_list)
     return answer
-
-
-print(solution('01022223333'))
