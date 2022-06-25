@@ -15,9 +15,14 @@ arr	 return
 13	 false
 '''
 
-a = 10
 
-a_list = list(str(a))
-print(int(a_list))
-# if sum(int(a_list)) == a:
-#     print('true')
+def solution(x):
+    x_list = list(str(x))
+    sum = 0
+    for i in x_list:
+        sum += int(i)
+    if x % sum == 0:
+        answer = True
+    else:
+        answer = False
+    return answer
