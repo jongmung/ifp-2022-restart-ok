@@ -40,3 +40,10 @@ int solution(int num1, int num2) {
     // array = sorted(array)
     // length = len(array)//2
     // return array[length]
+
+//hello world 출력
+#include <iostream>
+int main(int argc, char* argv[]) {
+    std::cout << "Hello World" << std::endl;
+    return 0;
+}
