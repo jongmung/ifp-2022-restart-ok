@@ -18,11 +18,14 @@ int main(){
 }
 
 //첫째 줄에 동혁이가 찾은 흰색 킹, 퀸, 룩, 비숍, 나이트, 폰의 개수가 주어진다.
+// 1,1,2,2,2,8
 //이 값은 0보다 크거나 같고 10보다 작거나 같은 정수이다.
 #include <iostream>
 using namespace std;
 int main(){
     int a,b,c,d,e,f;
     cin >> a >> b >> c >> d >> e >> f;
-    
+    cout << 1-a << " " << 1-b << " " << 2-c << " " << 2-d << " " << 2-e << " " << 8-f << endl;
+    return 0;
 }
+
