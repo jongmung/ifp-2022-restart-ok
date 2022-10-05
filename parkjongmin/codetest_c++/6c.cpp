@@ -57,3 +57,48 @@ int main(){
 //10871_x보다 작은수
 //정수 N개로 이루어진 수열 A와 정수 X가 주어진다.
 //이때, A에서 X보다 작은 수를 모두 출력하는 프로그램을 작성하시오.
+#include <iostream>
+using namespace std;
+int main(){
+    int n,x,a;
+    cin>>n>>x;
+    for (int i=0;i<n;i++){
+        cin>>a;
+        if (a < x){
+            cout<<a<<" ";
+        }
+    }
+    return 0;
+}
+
+//10952_A+B-5
+//두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.
+//입력의 마지막에는 0 두 개가 들어온다.
+#include <iostream>
+using namespace std;
+int main(){
+    ios_base::sync_with_stdio(false);
+    while (true){            // 무한루프 while문
+        int a,b;             // while (조건식) {
+        cin>>a>>b;           //     코드 내용
+        if (a==0&&b==0){     //  }
+            break;           
+        }
+        cout<<a+b<<"\n";
+    }
+    return 0;
+}
+
+//10951_A+B-4
+//두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.
+//각 테스트 케이스마다 A+B를 출력한다.
+#include <iostream>
+using namespace std;
+int main(){
+    ios_base::sync_with_stdio(false);
+    int a,b;
+    while (!(cin >> a >> b).eof()){
+        cout<<a+b<<'\n';
+    }
+    return 0;
+}
