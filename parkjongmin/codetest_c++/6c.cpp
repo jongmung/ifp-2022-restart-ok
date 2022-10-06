@@ -97,8 +97,32 @@ using namespace std;
 int main(){
     ios_base::sync_with_stdio(false);
     int a,b;
-    while (!(cin >> a >> b).eof()){
-        cout<<a+b<<'\n';
+    while (!(cin >> a >> b).eof()){ //입력 스트림이 더 이상 읽을 것이 없는
+        cout<<a+b<<'\n'; //파일의 끝에 도달했을 때를 처리해야해서 eof()사용
     }
+    return 0;
+}
+
+//1110_더하기 사이클
+//먼저 주어진 수가 10보다 작다면 앞에 0을 붙여 두 자리 수로 만들고,
+//각 자리의 숫자를 더한다.
+//그 다음, 주어진 수의 가장 오른쪽 자리 수와 앞에서 구한 합의 가장 오른쪽 자리 수를
+//이어 붙이면 새로운 수를 만들 수 있다.
+#include <iostream>
+using namespace std;
+int main(){
+    ios_base::sync_with_stdio(false);
+    int a,N;
+    int count = 0;
+    cin >> a;
+    N = a;                         //while문 - 조건심사후 while 블럭 실행
+    do {                           //do-while문 - 블럭 실행후 조건 심사
+                                   // 
+        N = (N%10) * 10 + ((N/10)+(N%10)) %10; //  N에 대해 반복하므로 연산된 값도 N으로 덮어줌
+             // 10의 자리수 + N의 10의 자릿수와 1의 자릿수를 더함
+             // = 더한 값의 1의 자릿수가 1의 자릿수가 됨
+        count++; //사이클 수 증가
+    } while (a != N);
+    cout<<count; //사이클 수 출력
     return 0;
 }
